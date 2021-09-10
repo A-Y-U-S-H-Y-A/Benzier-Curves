@@ -17,7 +17,7 @@ python main.py
 ```
 
 ## Examples
-Check out [this folder]() for examples
+Check out [this folder](https://github.com/A-Y-U-S-H-Y-A/Bezier-Curves/tree/main/examples) for examples
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
