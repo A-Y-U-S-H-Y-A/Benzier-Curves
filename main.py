@@ -4,6 +4,7 @@ from PIL import Image, ImageDraw
 h = int(input('Enter image height: '))
 w = int(input('Enter image width: '))
 n = int(input('Enter number of curves: '))
+fn = input('Enter file name (without .png) :')
 img = Image.new("RGB", (w,h), "white")
 draw = ImageDraw.Draw(img)
 p1 = []
@@ -53,11 +54,11 @@ for j in range (n):
             
     p1 = p3
 
-for i in range(1000):
-    for j in range(1000):
+for i in range(w):
+    for j in range(h):
         if (img.getpixel((i,j)) == (255, 255, 255)):
             ImageDraw.floodfill(img,(i,j),(random.randint(1,244),random.randint(1,244),random.randint(1,244)),thresh=50)
         else:
             continue
-        
-img.save("design9.png")
+fn += '.png'
+img.save(fn)
