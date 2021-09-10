@@ -23,4 +23,4 @@ Check out [this folder](https://github.com/A-Y-U-S-H-Y-A/Bezier-Curves/tree/main
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)gi
+[MIT](https://choosealicense.com/licenses/mit/)
